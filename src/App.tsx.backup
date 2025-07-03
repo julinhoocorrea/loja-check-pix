@@ -1,0 +1,25 @@
+import React from 'react';
+
+function App() {
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h1>🚀 Loja da Check - Sistema Funcionando!</h1>
+      <p>Se você está vendo esta mensagem, o React está funcionando corretamente.</p>
+      <button
+        onClick={() => alert('Clique funcionando!')}
+        style={{
+          padding: '10px 20px',
+          backgroundColor: '#007bff',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          cursor: 'pointer'
+        }}
+      >
+        Testar Clique
+      </button>
+    </div>
+  );
+}
+
+export default App;
